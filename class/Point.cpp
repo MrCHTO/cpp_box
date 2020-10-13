@@ -38,8 +38,7 @@ public:
 };
 void f(Point p)
 {
-    cout << "函数f之中" << endl;
-    cout << "点" << p.GetX() << "," << p.GetY() << endl;
+    cout << "函数f之中点" << p.GetX() << "," << p.GetY() << endl;
 }
 Point g()
 {
@@ -49,8 +48,11 @@ Point g()
 main()
 {
     Point p1, p2(15, 30), p3(p1), p4(p2);
+    cout << endl;
     f(p2);
+    cout << endl;
     p2 = g();
+    cout << endl;
     //g();
     system("pause");
 }
