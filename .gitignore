@@ -3,13 +3,16 @@
 
 ###### 重  要 ######
 !.gitignore
+!/.git
 !/Test
 !README.md
 
 #### 不忽略以下 ####
 !/Data_Structure
 !/HDU_OJ
+!/Linux
 !/Sort
+!/Big_Data
 
 ####  忽略  以下  ####
 # 忽略Virtual配置文件
